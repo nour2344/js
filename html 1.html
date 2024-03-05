@@ -1,0 +1,32 @@
+HTML
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>my first website</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="free nour">   <!--defines the description of the page, stating "free nour." The description is often used by search engines to display a summary of the page in search results.-->
+    <meta name="keywords" content="free, nour, 14"><!--specifies a list of keywords associated with the page, separated by commas. These keywords can be used by search engines to index and rank the page.-->
+    <meta name="author" content="nour">  <!-- indicates the author of the page, specified as "nour".-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--ecran ywali b toul w ordh talifoun-->
+    <meta http-equiv="refresh" content="3">  <!--refresh kol 3 secondes-->
+</head>
+<body>
+    
+    <button> click </button>
+    ki thebha mandherha behi:
+        <a href ="https://www.youtube.com/watch?v=UUlyopAVKak">
+    <button style="background-color:aquamarine;color:blueviolet;border-radius:5px">click</button>
+   </a>
+   ki togres aal button tbadl hello b goodbye:
+       <button onclick="doSomething()" style="background-color:aquamarine;color:blueviolet;border-radius:5px">click</button>
+    <p id="test">hello</p>
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML="goodbye";
+        }
+    </script>
+
+</body>
+</html>
